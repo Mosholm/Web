@@ -42,6 +42,29 @@ h2 {
   text-transform: uppercase;
 }
 
+ /* unvisited link */
+ a:link {
+    color:var(--white);
+    font-weight: 600;
+  }
+  
+  /* visited link */
+  /* a:visited {
+  } */
+  
+  /* mouse over link */
+
+   a:hover{
+    color:var(--accent_color_groen);
+  } 
+  
+  /* selected link */
+  /* a:active {
+    color: blue;
+  }  */
+
+
+
 header {
   background-color: var(--accent_color_roed);
   color: var(--accent_color_pink);
