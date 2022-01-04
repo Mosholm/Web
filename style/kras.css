@@ -78,7 +78,7 @@ nav ul li a:visited {
   color: var(--accent_color_pink);
 }
 
-nav ul li a:hover {
+nav ul li a:hover, nav ul li a:active {
   text-decoration: none;
   color: var(--accent_color_groen);
   font-style: italic;
@@ -88,6 +88,7 @@ nav ul li a:hover {
   width: 10vw;
   padding: 1rem;
 }
+
 
 .some ul {
   display: flex;
@@ -115,6 +116,7 @@ nav ul li a:hover {
 
 #KRAS {
   width: 10vw;
+  fill: var(--accent_color_roed);
 }
 
 #tagline {
@@ -156,18 +158,23 @@ nav ul li a:hover {
   margin-bottom: 1rem;
 }
 
-.kontakt {
+#tilmelding{
+    padding-top: 7vw;
+}
+
+
+#kontakt {
   padding: 2vw;
   padding-left: 5vw;
   background-color: var(--accent_color_groen);
 }
 
-.kontakt ul li {
+#kontakt ul li {
   list-style: none;
 }
 
-.kontakt ul li a:link,
-.kontakt ul li a:visited {
+#kontakt ul li a:link,
+#kontakt ul li a:visited {
   text-decoration: none;
   color: var(--accent_color_pink);
   text-transform: uppercase;
@@ -175,7 +182,7 @@ nav ul li a:hover {
   font-size: 1.2em;
 }
 
-.kontakt ul li a:hover {
+#kontakt ul li a:hover {
   font-style: italic;
 }
 
